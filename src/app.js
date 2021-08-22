@@ -3,7 +3,7 @@ const app = express();
 const port=process.env.PORT || 3000
 const path = require("path");
 const hbs = require("hbs");
-const geocode = require("../../weather-app/utils/geocode");
+const geocode = require("./utils/geocode");
 const forecast = require("./utils/forecast");
 
 const pubdire = path.join(__dirname, "../public");
